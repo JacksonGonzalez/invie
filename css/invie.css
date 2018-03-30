@@ -255,6 +255,37 @@ table, th, td {
 		margin-bottom: 30px;
 		display: inline-block;
 	}
-
 	/* Fin de estilos de portada */
+
+	/* Estilos para guitarra */
+	.guitarras{
+		text-align: center;
+		
+	}
+
+	.derecha, .izquierda {
+		
+		float: none;
+		position: static;
+	}
+	/* Fin dn estilos para guitarra */
+	.title-b{
+		margin: 0;
+	}
+
+	.guitarra li {
+		list-style: none;  /*para eliminar los estilos numericos de los li*/
+	}
+
+	.guitarra.b {
+		height: auto;
+	}
+
+	.contenedor-guitarra-b {
+		position: static;
+		margin: 0;
+	}
+	.formulario{
+		margin-right: 28px;
+	}
 }
