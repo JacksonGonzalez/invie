@@ -133,3 +133,100 @@ body{
 	position: relative;
 }
 
+
+footer {
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.contacto {
+	display: flex;
+	width: 290px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contacto img{
+	display: block;
+}
+
+.contacto strong {
+	display:  block;
+}
+
+.contacto a {
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color:  white;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2 {
+	align-items: flex-start;
+}
+.col2 .button {
+	margin-top: 15px;
+}
+.intereses label {
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+	margin-bottom: 8px;
+}
+
+.sexo {
+	margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px;
+}
+
+td {
+	padding: 20px;
+}
+
+table, th, td {
+	border: 1px solid #273b47;
+	border-collapse: collapse ;
+}
+
+.menu li:before{
+	content: '∘';
+	font-size: 40px;
+	line-height: 30px;
+	color: white;
+}
+
+.tabla {
+	margin: 50px 0;
+}
+
