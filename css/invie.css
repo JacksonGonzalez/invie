@@ -283,6 +283,7 @@ table, th, td {
 	top: 20px;
 	cursor: pointer;
 	z-index: 3;
+	color: white;
 }
 
 @media screen and (max-width:800px){
@@ -293,6 +294,16 @@ table, th, td {
 	/* body {
 		border: 1px solid red;
 	} */
+
+	/* Precios */
+	.tabla{
+		margin: 50px 15px;
+	}
+	.tabla .contenedor{
+		overflow: auto;
+		border: 1px solid #273b47;
+	}
+	/* Fin de Precios */
 
 	/* Estilos de portada */
 	.titulo{
@@ -416,6 +427,14 @@ table, th, td {
 
 @media screen and (max-width: 500px ){
 	.portada .contenedor {
+		position: static;
+	}
+
+	.header{
+		position: static;
+	}
+
+	.header .contenedor{
 		position: static;
 	}
 	/* Portada */
