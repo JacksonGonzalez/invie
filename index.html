@@ -17,7 +17,7 @@
 				<img src="images/invie.png" width="186" height="60" alt="Invie logotipo">
 			</figure>
 			<span class="burguer-button icon-menu" id="burguer-button"></span>
-			<nav class="menu"><!-- menu -->
+			<nav class="menu" id="menu"><!-- menu -->
 				<ul>
 					<li>
 						<a href="index.html">Inicio</a>
@@ -114,7 +114,12 @@
 	</footer>
 
 	<script>
-		var $burguerButton = Document.getElementById('burguerButton');
+		var $burguerButton = document.getElementById('burguer-button');
+		var $menu = document.getElementById('menu');
+		
+		$burguerButton.addEventListener('touchstart', function(){
+			$menu.classList.toggle('active');
+		});
 	</script>
 </body>
 </html>
