@@ -347,6 +347,7 @@ table, th, td {
 	.formulario{
 		margin-right: 28px;
 	}
+
 }
 
 @media screen and (max-width: 767px){
@@ -385,6 +386,7 @@ table, th, td {
 		margin: 0;
 	}
 	/* fin footer */
+
 }
 
 @media screen and (max-width: 650px){
